@@ -2,7 +2,7 @@ backend:
   name: github
   repo: dev72Raj/decap-demo-site
   branch: main
-  base_url: https://api.github.com
+  auth_type: implicit
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
