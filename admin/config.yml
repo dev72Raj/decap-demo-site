@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: dev72Raj/decap-demo-site
-  branch: main
+  name: proxy
+  proxy_url: http://localhost:8081
 
 local_backend: true
 
