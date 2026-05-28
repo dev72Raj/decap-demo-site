@@ -1,6 +1,6 @@
 backend:
   name: proxy
-  proxy_url: http://localhost:8081
+  proxy_url: http://localhost:8081/api/v1
 
 local_backend: true
 

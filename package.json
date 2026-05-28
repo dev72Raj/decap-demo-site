@@ -1,0 +1,28 @@
+{
+  "name": "decap-demo-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "npx decap-server",
+    "serve": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev72Raj/decap-demo-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev72Raj/decap-demo-site/issues"
+  },
+  "homepage": "https://github.com/dev72Raj/decap-demo-site#readme",
+  "dependencies": {
+    "netlify-cms-proxy-server": "^1.3.24"
+  },
+  "devDependencies": {
+    "decap-server": "^3.7.0"
+  }
+}
